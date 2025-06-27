@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pad Thai Recipe | Laelawit's Global Recipe Hub</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    .recipe-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .recipe-title {
+      font-family: 'Merriweather', serif;
+      font-size: 2.5rem;
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+    .recipe-meta {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+      color: #666;
+    }
+    .serving-info {
+      background: #f8f8f8;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .dark-mode .serving-info {
+      background: #2a2a2a;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <a href="global.html" class="back-button">← Back to Global Recipes</a>
+    <button id="toggle-dark">Toggle Dark Mode</button>
+  </nav>
+</header>
+
+<main class="recipe-main">
+  <div class="recipe-header">
+    <h1 class="recipe-title">Pad Thai</h1>
+    <div class="recipe-meta">
+      <span>⏱️ Prep: 30 mins</span>
+      <span>🍳 Cook: 15 mins</span>
+      <span>🍽️ Serves: 4</span>
+    </div>
+    <p class="recipe-description">Authentic Thai stir-fried noodles with sweet, sour, and savory flavors.</p>
+  </div>
+
+  <div class="recipe-container">
+    <div class="left-column">
+      <div class="box" id="ingredients">
+        <h3 class="recipe-heading">Ingredients</h3>
+        <ul>
+          <li class="list">12 oz rice noodles</li>
+          <li class="list">2 tbsp butter</li>
+          <li class="list">1 lb chicken breast, cubed</li>
+          <li class="list">¼ cup vegetable oil</li>
+          <li class="list">4 eggs</li>
+          <li class="list">3 tbsp white sugar</li>
+          <li class="list">2 tbsp fish sauce</li>
+          <li class="list">1 tbsp white wine vinegar</li>
+          <li class="list">⅛ tbsp crushed red pepper</li>
+          <li class="list">2 cups bean sprouts</li>
+          <li class="list">3 green onions, chopped</li>
+          <li class="list">¼ cup crushed peanuts</li>
+          <li class="list">1 lemon, cut into wedges</li>
+        </ul>
+      </div>
+      <div class="box" id="equipment">
+        <h3 class="recipe-heading">Equipment</h3>
+        <ul>
+          <li class="list">Wok or large skillet</li>
+          <li class="list">Wooden spoon</li>
+          <li class="list">Chef's knife</li>
+        </ul>
+        <h3 class="recipe-heading" style="margin-top: 20px;">To Serve</h3>
+        <ul>
+          <li class="list">Lime wedges</li>
+          <li class="list">Extra crushed peanuts</li>
+          <li class="list">Fresh bean sprouts</li>
+          <li class="list">Chili flakes</li>
+        </ul>
+        <div class="serving-info">
+          <p><strong>Tip:</strong> Soak noodles in cold water for 30 mins to avoid mushiness.</p>
+        </div>
+      </div>
+    </div>
+    <div class="box" id="steps">
+      <h3 class="recipe-heading">Instructions</h3>
+      <div class="step">
+        <span>Step 1.</span>
+        <p class="recipe">Soak rice noodles in cold water for 30-50 minutes. Drain and set aside.</p>
+      </div>
+      <div class="step">
+        <span>Step 2.</span>
+        <p class="recipe">Heat butter in a wok; cook chicken until browned. Remove and set aside.</p>
+      </div>
+      <div class="step">
+        <span>Step 3.</span>
+        <p class="recipe">Heat oil in the wok. Crack eggs and scramble until firm. Add chicken back.</p>
+      </div>
+      <div class="step">
+        <span>Step 4.</span>
+        <p class="recipe">Add noodles, sugar, fish sauce, vinegar, and red pepper. Stir-fry until tender.</p>
+      </div>
+      <div class="step">
+        <span>Step 5.</span>
+        <p class="recipe">Toss in bean sprouts and cook for 3 minutes.</p>
+      </div>
+      <div class="step">
+        <span>Step 6.</span>
+        <p class="recipe">Garnish with green onions, peanuts, and lemon wedges. Serve hot.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>Made with ❤️ by Laelawit | Recipe adapted from traditional Thai cooking</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebab Recipe | Laelawit's Global Recipe Hub</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .recipe-title {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 0.5rem;
+        }
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        .serving-info {
+            background: #f8f8f8;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .dark-mode .serving-info {
+            background: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="global.html" class="back-button">← Back to Global Recipes</a>
+        <button id="toggle-dark">Toggle Dark Mode</button>
+    </nav>
+</header>
+
+<main class="recipe-main">
+    <div class="recipe-header">
+        <h1 class="recipe-title">Kebab</h1>
+        <div class="recipe-meta">
+            <span>⏱️ Prep: 45 mins</span>
+            <span>🍳 Cook: 10 mins</span>
+            <span>🍽️ Serves: 4</span>
+        </div>
+        <p class="recipe-description">Flavorful Middle Eastern spiced lamb kebabs, perfect for grilling.</p>
+    </div>
+
+    <div class="recipe-container">
+        <div class="left-column">
+            <div class="box" id="ingredients">
+                <h3 class="recipe-heading">Ingredients</h3>
+                <ul>
+                    <li class="list">4 cloves garlic, minced</li>
+                    <li class="list">1 teaspoon kosher salt</li>
+                    <li class="list">1 pound ground lamb</li>
+                    <li class="list">3 tablespoons grated onion</li>
+                    <li class="list">3 tablespoons chopped fresh parsley</li>
+                    <li class="list">1 tablespoon ground coriander</li>
+                    <li class="list">1 teaspoon ground cumin</li>
+                    <li class="list">½ tablespoon ground cinnamon</li>
+                    <li class="list">½ teaspoon ground allspice</li>
+                    <li class="list">¼ teaspoon cayenne pepper</li>
+                    <li class="list">¼ teaspoon ground ginger</li>
+                    <li class="list">¼ teaspoon ground black pepper</li>
+                    <li class="list">28 bamboo skewers, soaked in water for 30 minutes</li>
+                </ul>
+            </div>
+            <div class="box" id="equipment">
+                <h3 class="recipe-heading">To Serve</h3>
+                <ul>
+                    <li class="list">Pita bread or flatbread</li>
+                    <li class="list">Tzatziki sauce</li>
+                    <li class="list">Chopped tomatoes and cucumbers</li>
+                    <li class="list">Lemon wedges</li>
+                    <li class="list">Fresh mint leaves</li>
+                </ul>
+                <div class="serving-info">
+                    <p><strong>Tip:</strong> For best flavor, let the meat mixture marinate for at least 2 hours before forming kebabs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="steps">
+            <h3 class="recipe-heading">Instructions</h3>
+            <div class="step">
+                <span>Step 1.</span>
+                <p class="recipe">Mash garlic into a paste with salt using a mortar and pestle or the flat side of a chef's knife on your cutting board.</p>
+            </div>
+            <div class="step">
+                <span>Step 2.</span>
+                <p class="recipe">Mix garlic into lamb with onion, parsley, coriander, cumin, cinnamon, allspice, cayenne pepper, ginger, and pepper in a mixing bowl until well blended.</p>
+            </div>
+            <div class="step">
+                <span>Step 3.</span>
+                <p class="recipe">Form mixture into 28 balls. Form each ball around the tip of a skewer, flattening it into a 2-inch oval; repeat with remaining skewers. Place kebabs onto a baking sheet, cover, and refrigerate for at least 30 minutes, or up to 12 hours.</p>
+            </div>
+            <div class="step">
+                <span>Step 4.</span>
+                <p class="recipe">Preheat an outdoor grill for medium heat and lightly oil the grate.</p>
+            </div>
+            <div class="step">
+                <span>Step 5.</span>
+                <p class="recipe">Cook skewers on the preheated grill, turning occasionally, until browned and cooked through, about 5 to 6 minutes. An instant-read thermometer inserted into the center of a kebab should read at least 145 degrees F (63 degrees C).</p>
+            </div>
+            <div class="step">
+                <span>Step 6.</span>
+                <p class="recipe">Serve hot and enjoy!</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Made with ❤️ by Laelawit | Recipe adapted from traditional Middle Eastern cooking</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

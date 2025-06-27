@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe | Laelawit's Global Recipe Hub</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .recipe-title {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 0.5rem;
+        }
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        .serving-info {
+            background: #f8f8f8;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .dark-mode .serving-info {
+            background: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="french.html" class="back-button">← Back to French Recipes</a>
+        <button id="toggle-dark">Toggle Dark Mode</button>
+    </nav>
+</header>
+
+<main class="recipe-main">
+    <div class="recipe-header">
+        <h1 class="recipe-title">Crêpe</h1>
+        <div class="recipe-meta">
+            <span>⏱️ Prep: 10 mins</span>
+            <span>🍳 Cook: 3 mins each</span>
+            <span>🍽️ Serves: 4-6</span>
+        </div>
+        <p class="recipe-description">Crêpes are very thin pancakes. They can be served with a wide variety of sweet and savory fillings and toppings. The breakfast staple dates back to at least 13th-century France.</p>
+    </div>
+
+    <div class="recipe-container">
+        <div class="left-column">
+            <div class="box" id="ingredients">
+                <h3 class="recipe-heading">Ingredients</h3>
+                <ul>
+                    <li class="list">2 large eggs</li>
+                    <li class="list">½ cup milk</li>
+                    <li class="list">½ cup water</li>
+                    <li class="list">¼ teaspoon salt</li>
+                    <li class="list">1 cup all-purpose flour</li>
+                    <li class="list">2 tablespoons butter, melted</li>
+                </ul>
+            </div>
+
+            <div class="box" id="equipment">
+                <h3 class="recipe-heading">Recipe Tip</h3>
+                <div class="serving-info">
+                    <p>You can also add all of the ingredients to a blender and process a few times using short bursts until the batter is smooth.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="steps">
+            <h3 class="recipe-heading">Instructions</h3>
+            <div class="step">
+                <span>Step 1.</span>
+                <p class="recipe">Whisk eggs, milk, water, and salt together in a large mixing bowl; add flour and butter and whisk vigorously until smooth.</p>
+            </div>
+            <div class="step">
+                <span>Step 2.</span>
+                <p class="recipe">Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the pan, using approximately 1/4 cup for each crêpe. Tilt the pan with a circular motion so that the batter coats the surface evenly.</p>
+            </div>
+            <div class="step">
+                <span>Step 3.</span>
+                <p class="recipe">Cook until the top of the crêpe is no longer wet and the bottom has turned light brown, 1 to 2 minutes. Run a spatula around the edge of the skillet to loosen the crêpe; flip and cook until the other side has turned light brown, about 1 minute more. Serve hot.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Made with ❤️ by Laelawit | Recipe adapted from traditional cooking</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe | Laelawit's Global Recipe Hub</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .recipe-title {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 0.5rem;
+        }
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        .serving-info {
+            background: #f8f8f8;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .dark-mode .serving-info {
+            background: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="french.html" class="back-button">← Back to French Recipes</a>
+        <button id="toggle-dark">Toggle Dark Mode</button>
+    </nav>
+</header>
+
+<main class="recipe-main">
+    <div class="recipe-header">
+        <h1 class="recipe-title">Coq au Vin</h1>
+        <div class="recipe-meta">
+            <span>⏱️ Prep & Cook: ~1 hr 30 mins</span>
+            <span>🍽️ Serves: 4-6</span>
+        </div>
+        <p class="recipe-description">Coq au vin is a French chicken stew in which chicken thighs are braised in a red wine sauce with bacon, mushrooms, and herbs. It may sound fancy, but it's really not difficult to make at home.</p>
+    </div>
+
+    <div class="recipe-container">
+        <div class="left-column">
+            <div class="box" id="ingredients">
+                <h3 class="recipe-heading">Ingredients</h3>
+                <ul>
+                    <li class="list">6 bone-in, skin-on chicken thighs</li>
+                    <li class="list">kosher salt and freshly ground black pepper to taste</li>
+                    <li class="list">8 ounces bacon, sliced crosswise into ½-inch pieces</li>
+                    <li class="list">10 large button mushrooms, quartered</li>
+                    <li class="list">½ large yellow onion, diced</li>
+                    <li class="list">2 shallots, sliced</li>
+                    <li class="list">2 teaspoons all-purpose flour</li>
+                    <li class="list">2 teaspoons butter</li>
+                    <li class="list">1 ½ cups red wine</li>
+                    <li class="list">6 sprigs fresh thyme</li>
+                    <li class="list">1 cup chicken broth</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="box" id="steps">
+            <h3 class="recipe-heading">Instructions</h3>
+            <div class="step">
+                <p class="recipe">Preheat the oven to 375 degrees F (190 degrees C). Season chicken thighs all over with salt and black pepper.</p>
+            </div>
+            <div class="step">
+                <p class="recipe">Sauté bacon in a large, oven-proof skillet over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Transfer bacon with a slotted spoon to a paper towel-lined plate, leaving drippings in the skillet.</p>
+            </div>
+            <div class="step">
+                <p class="recipe">Increase the heat to high and place chicken thighs, skin-side down, into the skillet. Cook until browned, 2 to 4 minutes per side. Transfer chicken to a plate; drain and discard all but 1 tablespoon drippings from the skillet.</p>
+            </div>
+            <div class="step">
+                <p class="recipe">Lower the heat to medium-high; sauté mushrooms, onion, and shallots with a pinch of salt in the hot skillet until golden and caramelized, 7 to 12 minutes.</p>
+            </div>
+            <div class="step">
+                <p class="recipe">Stir flour and butter into vegetable mixture until completely incorporated, about 1 minute.</p>
+            </div>
+            <div class="step">
+                <p class="recipe">Pour red wine into the skillet and bring to a boil while scraping browned bits of food off of the bottom of the pan with a wooden spoon. Stir bacon and thyme into red wine mixture; simmer until wine is about 1/3 reduced, 3 to 5 minutes. Pour chicken broth into wine mixture and return chicken thighs to the skillet; bring to a simmer.</p>
+            </div>
+            <div class="step">
+                <p class="recipe">Transfer the skillet to the preheated oven and cook for 30 minutes. Spoon pan juices over the chicken and continue cooking until no longer pink at the bone and the juices run clear, about 30 minutes more. An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 165 degrees F (74 degrees C). Transfer chicken to a platter.</p>
+            </div>
+            <div class="step">
+                <p class="recipe">Place the skillet over high heat and reduce pan juices, skimming fat off the top as necessary, until sauce thickens slightly, about 5 minutes. Season with salt and pepper; remove and discard thyme. Pour sauce over chicken to serve.</p>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="community">
+        <h3 class="recipe-heading">Community Tips & Praise</h3>
+        <ul>
+            <li class="list"><strong>Linda Adams Dodge:</strong> "So good!! The sauce was incredible. Melt-in-your-mouth chicken and super easy."</li>
+            <li class="list"><strong>Allrecipes user:</strong> "Absolutely delicious. Not expensive to make. Great with leftover wine!"</li>
+            <li class="list"><strong>Carrie Parks:</strong> "Yummy taste of France. I used boneless thighs and pre-cooked bacon. Worked great!"</li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <p>Made with ❤️ by Laelawit | Recipe adapted from traditional cooking</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

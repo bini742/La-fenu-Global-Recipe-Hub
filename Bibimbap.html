@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibimbap Recipe | Laelawit's Global Recipe Hub</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    /* Additional recipe-specific styles */
+    .recipe-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .recipe-title {
+      font-family: 'Merriweather', serif;
+      font-size: 2.5rem;
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+    .recipe-meta {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+      color: #666;
+    }
+    .recipe-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .serving-info {
+      background: #f8f8f8;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .dark-mode .serving-info {
+      background: #2a2a2a;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <a href="global.html" class="back-button">← Back to Global Recipes</a>
+    <button id="toggle-dark">Toggle Dark Mode</button>
+  </nav>
+</header>
+
+<main class="recipe-main">
+  <div class="recipe-header">
+    <h1 class="recipe-title">Bibimbap</h1>
+    <div class="recipe-meta">
+      <span>⏱️ Prep: 30 mins</span>
+      <span>🍳 Cook: 20 mins</span>
+      <span>🍽️ Serves: 4</span>
+    </div>
+    <p class="recipe-description">A colorful Korean mixed rice dish with vegetables, beef, and a fried egg, served with spicy gochujang sauce.</p>
+  </div>
+
+  <div class="recipe-container">
+    <div class="left-column">
+      <div class="box" id="ingredients">
+        <h3 class="recipe-heading">Ingredients</h3>
+        <ul>
+          <li class="list">1 English cucumber, cut into matchsticks</li>
+          <li class="list">¼ cup gochujang (Korean hot pepper paste) (Optional)</li>
+          <li class="list">1 bunch fresh spinach, cut into thin strips</li>
+          <li class="list">1 tablespoon soy sauce</li>
+          <li class="list">2 teaspoons olive oil, divided</li>
+          <li class="list">2 carrots, cut into matchsticks</li>
+          <li class="list">1 clove garlic, minced</li>
+          <li class="list">1 pinch red pepper flakes</li>
+          <li class="list">1 pound thinly-sliced beef top round steak</li>
+          <li class="list">4 large eggs</li>
+          <li class="list">4 cups cooked white rice</li>
+          <li class="list">4 teaspoons toasted sesame oil, divided</li>
+          <li class="list">1 teaspoon sesame seeds</li>
+          <li class="list">2 teaspoons gochujang (Korean hot pepper paste), divided (Optional)</li>
+        </ul>
+      </div>
+
+      <div class="box" id="equipment">
+        <h3 class="recipe-heading">To Serve</h3>
+        <ul>
+          <li class="list">Stone or regular serving bowls</li>
+          <li class="list">Small side dishes (banchan)</li>
+          <li class="list">Korean chili paste (gochujang)</li>
+          <li class="list">Sesame oil for drizzling</li>
+          <li class="list">Kimchi (optional)</li>
+        </ul>
+        <div class="serving-info">
+          <p><strong>Tip:</strong> For authentic dolsot bibimbap, use a stone bowl heated in a 500°F oven for 30 minutes before assembling.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="steps">
+      <h3 class="recipe-heading">Instructions</h3>
+      <div class="step">
+        <span>Step 1.</span>
+        <p class="recipe">Stir cucumber pieces with 1 teaspoon gochujang paste in a bowl; set aside to marinate.</p>
+      </div>
+      <div class="step">
+        <span>Step 2.</span>
+        <p class="recipe">Blanch spinach in boiling water for 2-3 minutes until bright green and wilted. Drain and squeeze out moisture, then toss with soy sauce.</p>
+      </div>
+      <div class="step">
+        <span>Step 3.</span>
+        <p class="recipe">Sauté carrots in 1 teaspoon olive oil for 3 minutes until softened. Add garlic and cook 1 minute until fragrant.</p>
+      </div>
+      <div class="step">
+        <span>Step 4.</span>
+        <p class="recipe">Cook beef in a dry skillet over medium heat until browned, about 5 minutes per side.</p>
+      </div>
+      <div class="step">
+        <span>Step 5.</span>
+        <p class="recipe">Fry eggs sunny-side up in remaining oil until whites are set but yolks are runny (2-4 minutes).</p>
+      </div>
+      <div class="step">
+        <span>Step 6.</span>
+        <p class="recipe">Assemble bowls: Divide rice among 4 bowls. Arrange vegetables and beef in sections on top.</p>
+      </div>
+      <div class="step">
+        <span>Step 7.</span>
+        <p class="recipe">Top each bowl with a fried egg. Drizzle with sesame oil and sprinkle with sesame seeds.</p>
+      </div>
+      <div class="step">
+        <span>Step 8.</span>
+        <p class="recipe">Serve immediately with extra gochujang on the side. Mix thoroughly before eating!</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>Made with ❤️ by Laelawit | Recipe adapted from traditional Korean cooking</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

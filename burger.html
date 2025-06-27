@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Burger Recipe | Laelawit's Global Recipe Hub</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .recipe-title {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 0.5rem;
+        }
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        .serving-info {
+            background: #f8f8f8;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .dark-mode .serving-info {
+            background: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="global.html" class="back-button">← Back to Global Recipes</a>
+        <button id="toggle-dark">Toggle Dark Mode</button>
+    </nav>
+</header>
+
+<main class="recipe-main">
+    <div class="recipe-header">
+        <h1 class="recipe-title">Classic Burger</h1>
+        <div class="recipe-meta">
+            <span>⏱️ Prep: 15 mins</span>
+            <span>🍳 Cook: 10 mins</span>
+            <span>🍽️ Serves: 4</span>
+        </div>
+        <p class="recipe-description">Juicy, flavorful homemade burgers perfect for summer grilling or stovetop cooking.</p>
+    </div>
+
+    <div class="recipe-container">
+        <div class="left-column">
+            <div class="box" id="ingredients">
+                <h3 class="recipe-heading">Ingredients</h3>
+                <ul>
+                    <li class="list">1 lb ground beef (80/20 blend)</li>
+                    <li class="list">1 tsp salt</li>
+                    <li class="list">1/2 tsp black pepper</li>
+                    <li class="list">1 tsp onion powder</li>
+                    <li class="list">1 tsp garlic powder</li>
+                    <li class="list">4 burger buns</li>
+                    <li class="list">Lettuce leaves</li>
+                    <li class="list">Tomato slices</li>
+                    <li class="list">Onion slices</li>
+                    <li class="list">Cheese slices (optional)</li>
+                    <li class="list">Condiments of choice</li>
+                </ul>
+            </div>
+
+            <div class="box" id="equipment">
+                <h3 class="recipe-heading">Equipment</h3>
+                <ul>
+                    <li class="list">Grill or stovetop skillet</li>
+                    <li class="list">Spatula</li>
+                    <li class="list">Mixing bowl</li>
+                    <li class="list">Measuring spoons</li>
+                    <li class="list">Meat thermometer (recommended)</li>
+                    <li class="list">Cutting board</li>
+                    <li class="list">Sharp knife</li>
+                </ul>
+                <div class="serving-info">
+                    <p><strong>Tip:</strong> For juicier burgers, make a small indentation in the center of each patty before cooking.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="steps">
+            <h3 class="recipe-heading">Instructions</h3>
+            <div class="step">
+                <span>Step 1.</span>
+                <p class="recipe">In a bowl, gently mix ground beef with salt, pepper, onion powder and garlic powder.</p>
+            </div>
+            <div class="step">
+                <span>Step 2.</span>
+                <p class="recipe">Divide mixture into 4 equal portions and form into patties slightly larger than your buns.</p>
+            </div>
+            <div class="step">
+                <span>Step 3.</span>
+                <p class="recipe">Preheat grill or skillet to medium-high heat.</p>
+            </div>
+            <div class="step">
+                <span>Step 4.</span>
+                <p class="recipe">Cook patties for 3-4 minutes per side for medium doneness.</p>
+            </div>
+            <div class="step">
+                <span>Step 5.</span>
+                <p class="recipe">If using cheese, add during last minute of cooking to melt.</p>
+            </div>
+            <div class="step">
+                <span>Step 6.</span>
+                <p class="recipe">Toast buns lightly on the grill or in a toaster.</p>
+            </div>
+            <div class="step">
+                <span>Step 7.</span>
+                <p class="recipe">Assemble burgers with your preferred toppings and condiments.</p>
+            </div>
+            <div class="step">
+                <span>Step 8.</span>
+                <p class="recipe">Serve immediately while hot.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Made with ❤️ by Laelawit | Recipe adapted from classic American cooking</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

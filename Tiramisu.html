@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiramisu Recipe | Laelawit's Global Recipe Hub</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .recipe-title {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 0.5rem;
+        }
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        .serving-info {
+            background: #f8f8f8;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .dark-mode .serving-info {
+            background: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="italy.html" class="back-button">← Back to Italian Recipes</a>
+        <button id="toggle-dark">Toggle Dark Mode</button>
+    </nav>
+</header>
+
+<main class="recipe-main">
+    <div class="recipe-header">
+        <h1 class="recipe-title">Tiramisu</h1>
+        <div class="recipe-meta">
+            <span>⏱️ Prep: 30 mins</span>
+            <span>🍳 Cook: 0 mins</span>
+            <span>🍽️ Serves: 12</span>
+        </div>
+        <p class="recipe-description">Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+    </div>
+
+    <div class="recipe-container">
+        <div class="left-column">
+            <div class="box" id="ingredients">
+                <h3 class="recipe-heading">Ingredients</h3>
+                <ul>
+                    <li class="list">6 large egg yolks</li>
+                    <li class="list">¾ cup white sugar</li>
+                    <li class="list">⅔ cup whole milk</li>
+                    <li class="list">1¼ cups heavy cream</li>
+                    <li class="list">½ teaspoon vanilla extract</li>
+                    <li class="list">16 oz mascarpone cheese</li>
+                    <li class="list">1¾ cups strong brewed coffee, cooled</li>
+                    <li class="list">2 tablespoons dark rum</li>
+                    <li class="list">24 ladyfinger cookies (savoiardi)</li>
+                    <li class="list">2 tablespoons cocoa powder</li>
+                    <li class="list">1 ounce dark chocolate (for shaving)</li>
+                </ul>
+            </div>
+            <div class="box" id="equipment">
+                <h3 class="recipe-heading">Equipment</h3>
+                <ul>
+                    <li class="list">9x13 inch baking dish</li>
+                    <li class="list">Double boiler</li>
+                    <li class="list">Electric mixer</li>
+                    <li class="list">Mixing bowls</li>
+                    <li class="list">Fine-mesh sieve</li>
+                    <li class="list">Rubber spatula</li>
+                </ul>
+                <h3 class="recipe-heading" style="margin-top: 20px;">To Serve</h3>
+                <ul>
+                    <li class="list">Extra cocoa powder</li>
+                    <li class="list">Chocolate shavings</li>
+                    <li class="list">Fresh berries</li>
+                    <li class="list">Espresso or dessert wine</li>
+                </ul>
+                <div class="serving-info">
+                    <p><strong>Tip:</strong> For best results, make tiramisu a day ahead to allow flavors to meld.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="steps">
+            <h3 class="recipe-heading">Instructions</h3>
+            <div class="step">
+                <span>Step 1.</span>
+                <p class="recipe">Whisk yolks and sugar in heatproof bowl over simmering water until pale and thick (about 10 minutes). Remove from heat.</p>
+            </div>
+            <div class="step">
+                <span>Step 2.</span>
+                <p class="recipe">Whisk in milk, then let cool slightly. Fold in mascarpone until smooth.</p>
+            </div>
+            <div class="step">
+                <span>Step 3.</span>
+                <p class="recipe">In separate bowl, whip cream and vanilla to stiff peaks. Gently fold into mascarpone mixture.</p>
+            </div>
+            <div class="step">
+                <span>Step 4.</span>
+                <p class="recipe">Combine coffee and rum in shallow dish. Quickly dip ladyfingers (1-2 seconds per side).</p>
+            </div>
+            <div class="step">
+                <span>Step 5.</span>
+                <p class="recipe">Arrange layer of dipped ladyfingers in dish. Spread half the cream mixture evenly over top.</p>
+            </div>
+            <div class="step">
+                <span>Step 6.</span>
+                <p class="recipe">Repeat with second layer of ladyfingers and remaining cream.</p>
+            </div>
+            <div class="step">
+                <span>Step 7.</span>
+                <p class="recipe">Cover and refrigerate at least 6 hours (preferably overnight).</p>
+            </div>
+            <div class="step">
+                <span>Step 8.</span>
+                <p class="recipe">Before serving, dust with cocoa powder through sieve and garnish with chocolate shavings.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Made with ❤️ by Laelawit | Recipe adapted from traditional Italian cooking</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

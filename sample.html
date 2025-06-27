@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clueless App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .screen {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div id="gender" class="screen active">
+    <h2>Gender Selection</h2>
+    <button onclick="nextScreen('questionnaire')">Continue</button>
+  </div>
+
+  <div id="questionnaire" class="screen">
+    <h2>Style Questionnaire</h2>
+    <button onclick="nextScreen('avatar')">Continue</button>
+  </div>
+
+  <div id="avatar" class="screen">
+    <h2>Avatar Showcase</h2>
+    <button onclick="nextScreen('checkout')">Continue</button>
+  </div>
+
+  <div id="checkout" class="screen">
+    <h2>Checkout</h2>
+    <p>Thank you for using Clueless!</p>
+  </div>
+</div>
+
+<script>
+  function nextScreen(nextId) {
+    document.querySelectorAll('.screen').forEach(div => div.classList.remove('active'));
+    document.getElementById(nextId).classList.add('active');
+  }
+</script>
+</body>
+</html>
+

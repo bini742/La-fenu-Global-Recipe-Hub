@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La'Fenu Recipe Site</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        /* Navbar styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .site-title {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .link {
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .link:hover {
+            color: #000;
+            background-color: #e0e0e0;
+        }
+
+        #toggle-dark {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: inherit;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        #toggle-dark:hover {
+            background-color: #e0e0e0;
+        }
+
+        /* Section styling */
+        .intro-section, .about {
+            margin: 2rem auto;
+            max-width: 1200px;
+            padding: 0 1rem;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <h1 class="site-title">Laelawit's Global Recipe Hub</h1>
+        <div class="nav-links">
+            <a href="index.html" class="link">Home</a>
+            <a href="#about" class="link">About</a>
+            <button id="toggle-dark" class="link">Toggle Dark Mode</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="intro-section">
+        <h2>Where do you want your recipe?</h2>
+        <div class="btn-div">
+            <a href="italy.html" class="btn">ITALY</a>
+            <a href="global.html" class="btn">GLOBAL</a>
+            <a href="french.html" class="btn">FRENCH</a>
+        </div>
+    </section>
+</main>
+
+<section class="about" id="about">
+    <h2>About This Site</h2>
+    <p>Welcome to La'Fenu recipe collection. This website was created to showcase delicious dishes from around the world. Whether you're in the mood for pasta, croissants, or global flavors — you'll find something tasty here!</p>
+    <h3>Recipe Sources:</h3>
+    <ul>
+        <li><a href="https://www.diversivore.com" target="_blank" rel="noopener noreferrer">Diversivore</a></li>
+        <li>Food Network</li>
+        <li>BBC Good Food</li>
+        <li>Family & Friends recipes</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Made with ❤️ by La'fenu</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
